@@ -13,7 +13,7 @@ output:
     
 input資料的jpg檔
 
-補充:將第8行input_file路徑改成自己的，如果是linux os的話20行split內容改成'/'
+補充:將第8行input_file路徑改成自己的，如果是windows os的話20行split內容改成'\\'
 
     python prepare_data_jpg.py 
 
@@ -29,7 +29,7 @@ output:
 
 mask的txt資料，train_data test_data的path寫成txt
 
-補充:將第8,11,14行input_file路徑改成自己的，如果是linux os的話39,53,56行split內容改成'/'
+補充:將第8,11,14行input_file路徑改成自己的，如果是windows os的話39,53,56行split內容改成'\\'
 
     python prepare_data_txt.py 
 
