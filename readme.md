@@ -42,7 +42,9 @@ mask的txt資料，train_data test_data的path寫成txt
     cuDNN >= 7.0 for CUDA 10.0 (for GPU)
     OpenMP (for CPU)
     Other Dependencies: make, git, g++
+    
 .
+
     cd darknet
     make
     ./darknet detector train data/obj.data yolo-obj.cfg yolov4.weights -dont_show -mjpeg_port 8090 -map
