@@ -11,6 +11,14 @@ https://hackmd.io/@neverleave0916/YOLOv4
 
 再把這篇的程式加入darknet的根目錄
 
+    環境需求:
+    CMake >= 3.12
+    CUDA >=10.0 (For GPU)
+    OpenCV >= 2.4 (For CPU and GPU)
+    cuDNN >= 7.0 for CUDA 10.0 (for GPU)
+    OpenMP (for CPU)
+    Other Dependencies: make, git, g++
+
 ## 訓練預處理:
 ### prepare_data_jpg.py:
 
@@ -45,16 +53,6 @@ mask的txt資料，train_data test_data的path寫成txt
     python prepare_data_txt.py 
 
 ## 訓練:
-
-    環境需求:
-    CMake >= 3.12
-    CUDA >=10.0 (For GPU)
-    OpenCV >= 2.4 (For CPU and GPU)
-    cuDNN >= 7.0 for CUDA 10.0 (for GPU)
-    OpenMP (for CPU)
-    Other Dependencies: make, git, g++
-    
-.
 
     cd darknet
     make
