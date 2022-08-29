@@ -1,5 +1,16 @@
 預測整個dicom中肝臟的位置，並將上下五張dicom一起打包成nii.gz檔，用於liver_segmentation的input
 
+使用darknet yolov4實作
+
+    git clone https://github.com/AlexeyAB/darknet
+    chmod -R 777 darknet/
+    
+建置方法可以參考這位大大寫的教學
+
+https://hackmd.io/@neverleave0916/YOLOv4
+
+再把這篇的程式加入darknet的根目錄
+
 ## 訓練預處理:
 ### prepare_data_jpg.py:
 
