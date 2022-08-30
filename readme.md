@@ -62,6 +62,11 @@ mask的txt資料，train_data test_data的path寫成txt
 
 ## 預測:
 
+權重檔下載
+
+https://mega.nz/folder/UUQgiTaT#sgj-8phcMy3p5JVvlm3U6w
+
+
 ### predict.py:
 
 input:
