@@ -1,7 +1,7 @@
 ### 預測整個dicom中肝臟的位置，並將上下五張dicom一起打包成nii.gz檔，用於liver_segmentation的input
 ![image](https://github.com/das61005/liver_detection/blob/main/map_89_test_file/IMG_1_2_840_113619_111_111_111_296519572_707_1513705981_041257362_23.jpg)
 ![image](https://github.com/das61005/liver_detection/blob/main/map_89_test_file/IMG_1_2_840_113619_111_111_111_296519572_707_1513705981_041257362_89.jpg)
-
+![image](https://github.com/das61005/liver_detection/blob/main/map_89_test_file/map.png)
 使用darknet yolov4實作
 
     git clone https://github.com/AlexeyAB/darknet
